@@ -5,7 +5,7 @@ console.log('The user\'s name is: ' + user + '.');
 
 alert('Well, hello, ' + user + '. I\'m going to ask you some questions!');
 
-var answer = prompt(user + ', they\'ll all be yes or no questions, so just answer with a Y or an N. You got that, right?').toUpperCase();
+var answer = prompt('They\'ll all be yes or no questions, so just answer with a Y or an N. You got that, right?').toUpperCase();
 console.log('The user answered: ' + answer);
 
 if (answer === 'Y') {
@@ -36,7 +36,7 @@ var answer3 = prompt('I sing--mostly for fun, but sometimes I get paid. I often 
 console.log('The user answered: ' + answer3);
 
 if (answer3 === 'Y') {
-  alert('Who me? It\'s the absolute truth. I was singing a gospel duet at a public concert celebrating Martin Luther King Junior Day, and the Governor was in attendance. The guy I was singing with knew the Governor well. Without any particular warning, he stuck the mic in Governor Locke\'s face. The Governor sang.');
+  alert('Who me? It\'s the absolute truth. I was singing a gospel duet at a public concert celebrating Martin Luther King Junior Day, and the Governor was in attendance. The guy I was singing with knew him pretty well. Without warning, he stuck the mic in the Governor\'s face. He sang.');
 } else {
   alert('You\'re right, ' + user + '! Governor Locke has a surprisingly nice tenor.');
 }
@@ -54,7 +54,7 @@ var answer5 = prompt('Do you think I always wanted to learn to code?').toUpperCa
 console.log('The user answered: ' + answer5);
 
 if (answer5 === 'Y') {
-  alert('You\'re right. I took a computer class in 1981 and I loved it, but I didn\'t have a computer at home. Besides, girls weren\'t supposed to like computers...right? That\'s what the boys in the computer lab told me. That kept me away for some time, but here I am. Funny how these things happen, isn\'t it, ' + user + '?');
+  alert('You\'re right. I took a computer class in 1981 and I loved it, but I didn\'t have a computer at home. Besides, girls weren\'t supposed to like computers...right? That\'s what the boys in the computer lab told me. That derailed me for some time, but here I am. Funny how these things happen, isn\'t it, ' + user + '?');
 } else {
-  alert('You\'re right. I took a computer class in 1981 and I loved it, but I didn\'t have a computer at home. Besides, girls weren\'t supposed to like computers...right? That\'s what the boys in the computer lab told me. That kept me away for some time, but here I am. Funny how these things happen, isn\'t it, ' + user + '?');
+  alert('You\'re right. I took a computer class in 1981 and I loved it, but I didn\'t have a computer at home. Besides, girls weren\'t supposed to like computers...right? That\'s what the boys in the computer lab told me. I didn\'t try again for some time, but here I am. Funny how these things happen, isn\'t it, ' + user + '?');
 }
