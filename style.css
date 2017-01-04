@@ -1,15 +1,28 @@
+body {
+  background-color: lavender;
+  font-family: "APHont", Arial, sans-serif;
+  color: darkmagenta;
+}
 h1 {
-  font-family: helvetica;
+  color: darkviolet;
+  text-align: center;
+}
+
+h2 {
+  color: indigo;
+  text-align: center;
 }
 
 p {
-  color: lightgrey;
+  color: darkslateblue;
+  text-align: justify;
 }
 
 .more-content {
-  background-color: #0000FF;
+  ;
 }
 
 #something-else {
-  border: 5px dashed #FF0000;
+  text-align: center;
+  font-style: italic;
 }
