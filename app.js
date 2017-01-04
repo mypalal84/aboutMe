@@ -1,13 +1,5 @@
 'use strict';
 
-/*var answer1 = confirm('Are you ready?');
-
-if (answer1 === true) {
-  console.log('Alright, then. Let\'s go!');
-} else {
-  console.log('Oh. Well, I can wait, I guess.');
-}*/
-
 var user = prompt('Hey, there. My name is Disa. It rhymes with Lisa. What\'s your name?');
 console.log('The user\'s name is: ' + user + '.');
 
@@ -62,7 +54,7 @@ var answer5 = prompt('Do you think I always wanted to learn to code?').toUpperCa
 console.log('The user answered: ' + answer5);
 
 if (answer5 === 'Y') {
-  alert('Nope. I took a computer class in 1981. I enjoyed it while it lasted, but I moved straight on to other things without a backward glance. But here I am!');
+  alert('You\'re right. I took a computer class in 1981 and I loved it, but I didn\'t have a computer at home. Besides, girls weren\'t supposed to like computers...right? That\'s what the boys in the computer lab told me. That kept me away for some time, but here I am. Funny how these things happen, isn\'t it, ' + user + '?');
 } else {
-  alert('You\'re right. Funny how these things happen, isn\'t it, ' + user + '?');
+  alert('You\'re right. I took a computer class in 1981 and I loved it, but I didn\'t have a computer at home. Besides, girls weren\'t supposed to like computers...right? That\'s what the boys in the computer lab told me. That kept me away for some time, but here I am. Funny how these things happen, isn\'t it, ' + user + '?');
 }

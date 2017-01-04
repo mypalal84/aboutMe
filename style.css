@@ -19,7 +19,9 @@ p {
 }
 
 .more-content {
-  ;
+  color: #C71585;
+  text-align: justify;
+
 }
 
 #something-else {
