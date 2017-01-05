@@ -3,6 +3,7 @@ body {
   font-family: "APHont", Arial, sans-serif;
   color: darkmagenta;
 }
+
 h1 {
   color: darkviolet;
   text-align: center;
@@ -24,6 +25,7 @@ p {
 }
 
 #something-else {
+  color: darkslateblue;
   text-align: center;
   font-style: italic;
 }
