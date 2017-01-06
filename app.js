@@ -82,3 +82,10 @@ function questionSix() {
     alert('No matter how you answer, here, it\'s going to be right.');
   }
 }
+
+questionOne();
+questionTwo();
+questionThree();
+questionFour();
+questionFive();
+questionSix();
