@@ -57,15 +57,17 @@ function questionFour() {
   }
 }
 
-var answer4 = prompt('You get on a plane and go somewhere. The plane lands. You disembark and trudge wearily through the airport. People do it a million times a day. Do you think I\'ve done it?').toUpperCase();
-console.log('The user answered: ' + answer4);
+function questionFive() {
+  var answer4 = prompt('You get on a plane and go somewhere. The plane lands. You disembark and trudge wearily through the airport. People do it a million times a day. Do you think I\'ve done it?').toUpperCase();
+  console.log('The user answered: ' + answer4);
 
-if (answer4 === 'Y' || answer4 === 'YES') {
-  alert('Nope! I\'ve gotten on a plane before, but the plane I was on landed without me. I\'d already jumped out of it.');
-} else if (answer === 'N' || answer === 'NO') {
-  alert('Well, you\'re half right,' + user + '. I\'ve only been in a plane once. I got in. We took off. Then somewhere a couple miles in the air, I jumped out of it and it landed without me.');
-} else {
-  alert('I have flown in a plane. Someday, I hope to land in one.');
+  if (answer4 === 'Y' || answer4 === 'YES') {
+    alert('Nope! I\'ve gotten on a plane before, but the plane I was on landed without me. I\'d already jumped out of it.');
+  } else if (answer === 'N' || answer === 'NO') {
+    alert('Well, you\'re half right,' + user + '. I\'ve only been in a plane once. I got in. We took off. Then somewhere a couple miles in the air, I jumped out of it and it landed without me.');
+  } else {
+    alert('I have flown in a plane. Someday, I hope to land in one.');
+  }
 }
 
 var answer5 = prompt('Do you think I always wanted to learn to code?').toUpperCase();
