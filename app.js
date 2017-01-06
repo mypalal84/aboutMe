@@ -18,15 +18,17 @@ function questionOne() {
   }
 }
 
-var answer1 = prompt('Okay. Next question. ' + user + ', I\'ve done some surprising things in my life. Let\'s start small. Do you think I\'ve ever fired a gun?').toUpperCase();
-console.log('The user answered: ' + answer1);
+function questionTwo() {
+  var answer1 = prompt('Okay. Next question. ' + user + ', I\'ve done some surprising things in my life. Let\'s start small. Do you think I\'ve ever fired a gun?').toUpperCase();
+  console.log('The user answered: ' + answer1);
 
-if (answer1 === 'Y' || answer1 === 'YES') {
-  alert('That\'s right! I fired a gun for the first time before I was two years old.');
-} else if (answer1 === 'N' || answer1 === 'NO'){
-  alert('Ah, no, ' + user + '. I\'m not into guns, now, but I got my own .22 rifle when I was eight, and passed my hunter\'s safety exam when I was eleven. I was the smallest kid in the class, and the teacher had to waive the shotgun test because I couldn\'t lift the shotgun.');
-} else {
-  alert('Yeah. Guns are a touchy subject. I wouldn\'t want to answer that one, either.');
+  if (answer1 === 'Y' || answer1 === 'YES') {
+    alert('That\'s right! I fired a gun for the first time before I was two years old.');
+  } else if (answer1 === 'N' || answer1 === 'NO'){
+    alert('Ah, no, ' + user + '. I\'m not into guns, now, but I got my own .22 rifle when I was eight, and passed my hunter\'s safety exam when I was eleven. I was the smallest kid in the class, and the teacher had to waive the shotgun test because I couldn\'t lift the shotgun.');
+  } else {
+    alert('Yeah. Guns are a touchy subject. I wouldn\'t want to answer that one, either.');
+  }
 }
 
 var answer2 = prompt('Question number two. Or is it three? Do you think I\'ve ever been on a motorcycle?').toUpperCase();
