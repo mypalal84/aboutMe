@@ -17,7 +17,6 @@ function questionOne() {
     alert('Are you messing with me?');
   }
 }
-questionOne();
 
 var answer1 = prompt('Okay. Next question. ' + user + ', I\'ve done some surprising things in my life. Let\'s start small. Do you think I\'ve ever fired a gun?').toUpperCase();
 console.log('The user answered: ' + answer1);
