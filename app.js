@@ -5,16 +5,19 @@ console.log('The user\'s name is: ' + user + '.');
 
 alert('Well, hello, ' + user + '. I\'m going to ask you some questions!');
 
-var answer = prompt('They\'ll all be yes or no questions, so just answer with a Y or an N. You got that, right?').toUpperCase();
-console.log('The user answered: ' + answer);
+function questionOne() {
+  var answer = prompt('They\'ll all be yes or no questions, so just answer with a Y or an N. You got that, right?').toUpperCase();
+  console.log('The user answered: ' + answer);
 
-if (answer === 'Y' || answer === 'YES') {
-  alert('Marvelous, ' + user + '! Let\s go!');
-} else if (answer === 'N' || answer === 'NO') {
-  alert('You know that entering N to tell me you didn\'t understand how to enter N showed me you understood how to enter N, right? Uh huh. Moving on, now.');
-} else {
-  alert('Are you messing with me?');
+  if (answer === 'Y' || answer === 'YES') {
+    alert('Marvelous, ' + user + '! Let\s go!');
+  } else if (answer === 'N' || answer === 'NO') {
+    alert('You know that entering N to tell me you didn\'t understand how to enter N showed me you understood how to enter N, right? Uh huh. Moving on, now.');
+  } else {
+    alert('Are you messing with me?');
+  }
 }
+questionOne();
 
 var answer1 = prompt('Okay. Next question. ' + user + ', I\'ve done some surprising things in my life. Let\'s start small. Do you think I\'ve ever fired a gun?').toUpperCase();
 console.log('The user answered: ' + answer1);
