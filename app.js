@@ -44,15 +44,17 @@ function questionThree() {
   }
 }
 
-var answer3 = prompt('I sing--mostly for fun, but sometimes I get paid. I often tell a story about singing a duet on live television with Governor Gary Locke. Now, I know that performers have been known to exaggerate from time to time. Do you think I\'m making it up?').toUpperCase();
-console.log('The user answered: ' + answer3);
+function questionFour() {
+  var answer3 = prompt('I sing--mostly for fun, but sometimes I get paid. I often tell a story about singing a duet on live television with Governor Gary Locke. Now, I know that performers have been known to exaggerate from time to time. Do you think I\'m making it up?').toUpperCase();
+  console.log('The user answered: ' + answer3);
 
-if (answer3 === 'Y' || answer3 === 'YES') {
-  alert('Who me? It\'s the absolute truth. I was singing a gospel duet at a public concert celebrating Martin Luther King Junior Day, and the Governor was in attendance. The guy I was singing with knew him pretty well. Without warning, he stuck the mic in the Governor\'s face. He sang.');
-} else if (answer === 'N' || answer === 'NO') {
-  alert('You\'re right, ' + user + '! Governor Locke has a surprisingly nice tenor.');
-} else {
-  alert('It\'s true. My life is strange enough that I don\'t feel a need to make stuff up.');
+  if (answer3 === 'Y' || answer3 === 'YES') {
+    alert('Who me? It\'s the absolute truth. I was singing a gospel duet at a public concert celebrating Martin Luther King Junior Day, and the Governor was in attendance. The guy I was singing with knew him pretty well. Without warning, he stuck the mic in the Governor\'s face. He sang.');
+  } else if (answer === 'N' || answer === 'NO') {
+    alert('You\'re right, ' + user + '! Governor Locke has a surprisingly nice tenor.');
+  } else {
+    alert('It\'s true. My life is strange enough that I don\'t feel a need to make stuff up.');
+  }
 }
 
 var answer4 = prompt('You get on a plane and go somewhere. The plane lands. You disembark and trudge wearily through the airport. People do it a million times a day. Do you think I\'ve done it?').toUpperCase();
