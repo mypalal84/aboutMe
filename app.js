@@ -61,24 +61,24 @@ function questionFive() {
   var answer4 = prompt('You get on a plane and go somewhere. The plane lands. You disembark and trudge wearily through the airport. People do it a million times a day. Do you think I\'ve done it?').toUpperCase();
   console.log('The user answered: ' + answer4);
 
-      if (answer4 === 'Y' || answer4 === 'YES') {
-      alert('Nope! I\'ve gotten on a plane before, but the plane I was on landed without me. I\'d already jumped out of it.');
-    } else if (answer === 'N' || answer === 'NO') {
-      alert('Well, you\'re half right,' + user + '. I\'ve only been in a plane once. I got in. We took off. Then somewhere a couple miles in the air, I jumped out of it and it landed without me.');
-    } else {
-      alert('I have flown in a plane. Someday, I hope to land in one.');
-    }
+    if (answer4 === 'Y' || answer4 === 'YES') {
+    alert('Nope! I\'ve gotten on a plane before, but the plane I was on landed without me. I\'d already jumped out of it.');
+  } else if (answer === 'N' || answer === 'NO') {
+    alert('Well, you\'re half right,' + user + '. I\'ve only been in a plane once. I got in. We took off. Then somewhere a couple miles in the air, I jumped out of it and it landed without me.');
+  } else {
+    alert('I have flown in a plane. Someday, I hope to land in one.');
   }
 }
 
+function questionSix() {
+  var answer5 = prompt('Do you think I always wanted to learn to code?').toUpperCase();
+  console.log('The user answered: ' + answer5);
 
-var answer5 = prompt('Do you think I always wanted to learn to code?').toUpperCase();
-console.log('The user answered: ' + answer5);
-
-if (answer5 === 'Y' || answer5 === 'YES') {
-  alert('You\'re right. I took a computer class in 1981 and I loved it, but I didn\'t have a computer at home. Besides, girls weren\'t supposed to like computers...right? That\'s what the boys in the computer lab told me. That derailed me for some time, but here I am. Funny how these things happen, isn\'t it, ' + user + '?');
-} else if (answer === 'N' || answer === 'NO') {
-  alert('You\'re right. I took a computer class in 1981 and I loved it, but I didn\'t have a computer at home. Besides, girls weren\'t supposed to like computers...right? That\'s what the boys in the computer lab told me. I didn\'t try again for some time, but here I am. Funny how these things happen, isn\'t it, ' + user + '?');
-} else {
-  alert('No matter how you answer, here, it\'s going to be right.');
+  if (answer5 === 'Y' || answer5 === 'YES') {
+    alert('You\'re right. I took a computer class in 1981 and I loved it, but I didn\'t have a computer at home. Besides, girls weren\'t supposed to like computers...right? That\'s what the boys in the computer lab told me. That derailed me for some time, but here I am. Funny how these things happen, isn\'t it, ' + user + '?');
+  } else if (answer === 'N' || answer === 'NO') {
+    alert('You\'re right. I took a computer class in 1981 and I loved it, but I didn\'t have a computer at home. Besides, girls weren\'t supposed to like computers...right? That\'s what the boys in the computer lab told me. I didn\'t try again for some time, but here I am. Funny how these things happen, isn\'t it, ' + user + '?');
+  } else {
+    alert('No matter how you answer, here, it\'s going to be right.');
+  }
 }
