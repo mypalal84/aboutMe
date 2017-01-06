@@ -31,15 +31,17 @@ function questionTwo() {
   }
 }
 
-var answer2 = prompt('Question number two. Or is it three? Do you think I\'ve ever been on a motorcycle?').toUpperCase();
-console.log('The user answered: ' + answer2);
+function questionThree() {
+  var answer2 = prompt('Question number two. Or is it three? Do you think I\'ve ever been on a motorcycle?').toUpperCase();
+  console.log('The user answered: ' + answer2);
 
-if (answer2 === 'Y' || answer2 === 'YES') {
-  alert('I surely have! I had a Honda 50 Minibike when I was a kid. Wish I\'d kept that thing. People collect them, now.');
-} else if (answer2 === 'N' || answer2 === 'NO'){
-  alert('Afraid you missed this one, ' + user + '. Not only have I been on a motorcycle, but the fine surgeons at Harborview put my pelvis back together with a six inch screw after I hit the pavement at sixty miles per hour. I am titanium!');
-} else {
-  alert('I grew up around guns and motorcycles. Don\'t look so surprised.');
+  if (answer2 === 'Y' || answer2 === 'YES') {
+    alert('I surely have! I had a Honda 50 Minibike when I was a kid. Wish I\'d kept that thing. People collect them, now.');
+  } else if (answer2 === 'N' || answer2 === 'NO'){
+    alert('Afraid you missed this one, ' + user + '. Not only have I been on a motorcycle, but the fine surgeons at Harborview put my pelvis back together with a six inch screw after I hit the pavement at sixty miles per hour. I am titanium!');
+  } else {
+    alert('I grew up around guns and motorcycles. Don\'t look so surprised.');
+  }
 }
 
 var answer3 = prompt('I sing--mostly for fun, but sometimes I get paid. I often tell a story about singing a duet on live television with Governor Gary Locke. Now, I know that performers have been known to exaggerate from time to time. Do you think I\'m making it up?').toUpperCase();
